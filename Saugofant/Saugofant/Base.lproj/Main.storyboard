@@ -288,48 +288,10 @@
                                     <rect key="frame" x="403" y="666" width="119" height="27"/>
                                 </variation>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="battery_empty" translatesAutoresizingMaskIntoConstraints="NO" id="iWN-WD-Nru">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <variation key="widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="208" y="423" width="29" height="38"/>
-                                </variation>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10%" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OxT-eV-FLi">
-                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="152" y="424" width="48" height="36"/>
-                                </variation>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Plastik" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cho-HL-1F8">
-                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="42"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="152" y="332" width="179" height="51"/>
-                                </variation>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="trocken" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2tj-1C-epy">
-                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="398" y="332" width="124" height="27"/>
-                                </variation>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="900 Gramm" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aOV-BH-4m6">
-                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="403" y="433" width="119" height="27"/>
-                                </variation>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T5d-3V-rn6">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="93"/>
-                                <state key="normal" image="Restmuell_bg"/>
+                                <state key="normal" image="Papier_bg"/>
                                 <variation key="widthClass=regular" fixedFrame="YES">
                                     <rect key="frame" x="132" y="778" width="410" height="168"/>
                                 </variation>
@@ -376,6 +338,92 @@
                                     <rect key="frame" x="403" y="899" width="119" height="27"/>
                                 </variation>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="battery_empty" translatesAutoresizingMaskIntoConstraints="NO" id="iWN-WD-Nru">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="208" y="423" width="29" height="38"/>
+                                </variation>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10%" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OxT-eV-FLi">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="152" y="424" width="48" height="36"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Plastik" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cho-HL-1F8">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="42"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="152" y="332" width="179" height="51"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="trocken" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2tj-1C-epy">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="398" y="332" width="124" height="27"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="900 Gramm" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aOV-BH-4m6">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="403" y="433" width="119" height="27"/>
+                                </variation>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="single-drop" translatesAutoresizingMaskIntoConstraints="NO" id="0L5-33-y6c">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="376" y="99" width="23" height="24"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="weight_white" translatesAutoresizingMaskIntoConstraints="NO" id="KmI-8m-8BH">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="370" y="204" width="23" height="24"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="weight_black" translatesAutoresizingMaskIntoConstraints="NO" id="0E6-cT-hcj">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="372" y="435" width="23" height="24"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="weight_white" translatesAutoresizingMaskIntoConstraints="NO" id="c3v-TB-UHZ">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="372" y="668" width="23" height="24"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="single-drop" translatesAutoresizingMaskIntoConstraints="NO" id="HC2-Fi-YfY">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="417" y="334" width="23" height="24"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="single-drop" translatesAutoresizingMaskIntoConstraints="NO" id="8Fc-ZZ-xCV">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="417" y="567" width="23" height="24"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="single-drop" translatesAutoresizingMaskIntoConstraints="NO" id="QgV-GU-uXr">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="417" y="800" width="23" height="24"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="weight_white" translatesAutoresizingMaskIntoConstraints="NO" id="Ljs-lA-YQI">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="372" y="901" width="23" height="24"/>
+                                </variation>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.22352941179999999" green="0.2470588235" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
@@ -404,17 +452,25 @@
                                 <exclude reference="YLi-ZE-KEj"/>
                                 <exclude reference="wCN-PK-3lK"/>
                                 <exclude reference="8FB-Q7-RvC"/>
-                                <exclude reference="iWN-WD-Nru"/>
-                                <exclude reference="OxT-eV-FLi"/>
-                                <exclude reference="cho-HL-1F8"/>
-                                <exclude reference="2tj-1C-epy"/>
-                                <exclude reference="aOV-BH-4m6"/>
                                 <exclude reference="T5d-3V-rn6"/>
                                 <exclude reference="ZJr-tK-qbN"/>
                                 <exclude reference="RFM-uk-BNe"/>
                                 <exclude reference="q8J-Pc-tgL"/>
                                 <exclude reference="ggh-Pf-vkT"/>
                                 <exclude reference="CSD-7k-3jx"/>
+                                <exclude reference="iWN-WD-Nru"/>
+                                <exclude reference="OxT-eV-FLi"/>
+                                <exclude reference="cho-HL-1F8"/>
+                                <exclude reference="2tj-1C-epy"/>
+                                <exclude reference="aOV-BH-4m6"/>
+                                <exclude reference="0L5-33-y6c"/>
+                                <exclude reference="KmI-8m-8BH"/>
+                                <exclude reference="0E6-cT-hcj"/>
+                                <exclude reference="c3v-TB-UHZ"/>
+                                <exclude reference="HC2-Fi-YfY"/>
+                                <exclude reference="8Fc-ZZ-xCV"/>
+                                <exclude reference="QgV-GU-uXr"/>
+                                <exclude reference="Ljs-lA-YQI"/>
                             </mask>
                             <mask key="constraints">
                                 <exclude reference="EVw-3h-ZWP"/>
@@ -439,17 +495,25 @@
                                 <include reference="YLi-ZE-KEj"/>
                                 <include reference="wCN-PK-3lK"/>
                                 <include reference="8FB-Q7-RvC"/>
-                                <include reference="iWN-WD-Nru"/>
-                                <include reference="OxT-eV-FLi"/>
-                                <include reference="cho-HL-1F8"/>
-                                <include reference="2tj-1C-epy"/>
-                                <include reference="aOV-BH-4m6"/>
                                 <include reference="T5d-3V-rn6"/>
                                 <include reference="ZJr-tK-qbN"/>
                                 <include reference="RFM-uk-BNe"/>
                                 <include reference="q8J-Pc-tgL"/>
                                 <include reference="ggh-Pf-vkT"/>
                                 <include reference="CSD-7k-3jx"/>
+                                <include reference="iWN-WD-Nru"/>
+                                <include reference="OxT-eV-FLi"/>
+                                <include reference="cho-HL-1F8"/>
+                                <include reference="2tj-1C-epy"/>
+                                <include reference="aOV-BH-4m6"/>
+                                <include reference="0L5-33-y6c"/>
+                                <include reference="KmI-8m-8BH"/>
+                                <include reference="0E6-cT-hcj"/>
+                                <include reference="c3v-TB-UHZ"/>
+                                <include reference="HC2-Fi-YfY"/>
+                                <include reference="8Fc-ZZ-xCV"/>
+                                <include reference="QgV-GU-uXr"/>
+                                <include reference="Ljs-lA-YQI"/>
                             </mask>
                             <mask key="constraints">
                                 <include reference="EVw-3h-ZWP"/>
@@ -470,9 +534,13 @@
         <image name="50_prozent_bio" width="574" height="848"/>
         <image name="Biomuell_bg" width="410" height="168"/>
         <image name="Kunststoff_bg" width="410" height="168"/>
+        <image name="Papier_bg" width="410" height="168"/>
         <image name="Restmuell_bg" width="410" height="168"/>
         <image name="battery_empty" width="138" height="204"/>
         <image name="battery_full" width="138" height="204"/>
         <image name="battery_half" width="138" height="204"/>
+        <image name="single-drop" width="52" height="66"/>
+        <image name="weight_black" width="50" height="62"/>
+        <image name="weight_white" width="50" height="62"/>
     </resources>
 </document>
