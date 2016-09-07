@@ -19,11 +19,11 @@
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Müll wurde getrennt" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qj3-PS-jST">
                                 <rect key="frame" x="-42" y="-21" width="42" height="21"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="49"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="72"/>
                                 <color key="textColor" red="0.24245746422985731" green="0.85236378205128205" blue="0.25029222017366476" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="164" y="77" width="472" height="86"/>
+                                    <rect key="frame" x="156" y="191" width="763" height="92"/>
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="50% Bio" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b9a-EG-1Jl">
@@ -32,7 +32,7 @@
                                 <color key="textColor" red="0.2424574642" green="0.85236378209999997" blue="0.25029222020000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="219" y="172" width="257" height="86"/>
+                                    <rect key="frame" x="502" y="353" width="257" height="86"/>
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10% Plastik/Grüner Punkt" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DNV-US-52W">
@@ -41,7 +41,7 @@
                                 <color key="textColor" red="0.2424574642" green="0.85236378209999997" blue="0.25029222020000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="219" y="360" width="513" height="86"/>
+                                    <rect key="frame" x="502" y="541" width="513" height="86"/>
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="30% Restmüll" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8qQ-Hl-E0J">
@@ -50,24 +50,42 @@
                                 <color key="textColor" red="0.2424574642" green="0.85236378209999997" blue="0.25029222020000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="219" y="266" width="353" height="86"/>
+                                    <rect key="frame" x="502" y="447" width="353" height="86"/>
                                 </variation>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="50_prozent_bio" translatesAutoresizingMaskIntoConstraints="NO" id="zrj-OM-g30">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <variation key="widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="164" y="191" width="35" height="47"/>
-                                </variation>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10% Karton" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PmA-JE-nNz">
                                 <rect key="frame" x="-42" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="43"/>
                                 <color key="textColor" red="0.2424574642" green="0.85236378209999997" blue="0.25029222020000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="219" y="454" width="233" height="86"/>
+                                    <rect key="frame" x="502" y="635" width="233" height="86"/>
                                 </variation>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="50_prozent_bio" translatesAutoresizingMaskIntoConstraints="NO" id="zrj-OM-g30">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="447" y="372" width="35" height="47"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="50_prozent_bio" translatesAutoresizingMaskIntoConstraints="NO" id="VqX-UF-NNN">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="447" y="466" width="35" height="47"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="50_prozent_bio" translatesAutoresizingMaskIntoConstraints="NO" id="Phf-su-TqE">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="447" y="560" width="35" height="47"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="50_prozent_bio" translatesAutoresizingMaskIntoConstraints="NO" id="nd7-9P-lpy">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="447" y="654" width="35" height="47"/>
+                                </variation>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.22352941176470587" green="0.24705882352941178" blue="0.30980392156862746" alpha="1" colorSpace="calibratedRGB"/>
                         <variation key="default">
@@ -76,8 +94,11 @@
                                 <exclude reference="b9a-EG-1Jl"/>
                                 <exclude reference="DNV-US-52W"/>
                                 <exclude reference="8qQ-Hl-E0J"/>
-                                <exclude reference="zrj-OM-g30"/>
                                 <exclude reference="PmA-JE-nNz"/>
+                                <exclude reference="zrj-OM-g30"/>
+                                <exclude reference="VqX-UF-NNN"/>
+                                <exclude reference="Phf-su-TqE"/>
+                                <exclude reference="nd7-9P-lpy"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=regular">
@@ -86,8 +107,11 @@
                                 <include reference="b9a-EG-1Jl"/>
                                 <include reference="DNV-US-52W"/>
                                 <include reference="8qQ-Hl-E0J"/>
-                                <include reference="zrj-OM-g30"/>
                                 <include reference="PmA-JE-nNz"/>
+                                <include reference="zrj-OM-g30"/>
+                                <include reference="VqX-UF-NNN"/>
+                                <include reference="Phf-su-TqE"/>
+                                <include reference="nd7-9P-lpy"/>
                             </mask>
                         </variation>
                     </view>
@@ -95,7 +119,25 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1347" y="458"/>
+            <point key="canvasLocation" x="1617" y="824"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="5f9-5S-kIH">
+            <objects>
+                <viewController id="dKI-2i-zB1" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ReR-m9-CgW"/>
+                        <viewControllerLayoutGuide type="bottom" id="dzx-iQ-vGc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="eK7-GK-umR">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GPc-gW-cFL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1142.25" y="2025"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="KKb-CO-tyQ">
@@ -115,29 +157,63 @@
                                     <color key="titleColor" red="0.2424574642" green="0.85236378209999997" blue="0.25029222020000003" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <variation key="widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="525" y="550" width="255" height="30"/>
+                                    <rect key="frame" x="1091" y="974" width="255" height="30"/>
                                 </variation>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="showDetail" action="showViewController:sender:" id="FYU-bJ-Z6S"/>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" id="FYU-bJ-Z6S"/>
                                 </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a59-Jh-75r">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="93"/>
+                                <state key="normal" title="Biomüll"/>
+                                <variation key="widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="132" y="149" width="345" height="254"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="dKI-2i-zB1" kind="presentation" id="Nqf-PD-UMQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ktm-1r-dEW">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="93"/>
+                                <state key="normal" title="Plastik"/>
+                                <variation key="widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="132" y="380" width="345" height="254"/>
+                                </variation>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HT0-lO-8H1">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="93"/>
+                                <state key="normal" title="Restmüll"/>
+                                <variation key="widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="132" y="663" width="346" height="254"/>
+                                </variation>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.22352941179999999" green="0.2470588235" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="QMo-rr-H7B"/>
+                                <exclude reference="a59-Jh-75r"/>
+                                <exclude reference="ktm-1r-dEW"/>
+                                <exclude reference="HT0-lO-8H1"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=regular">
                             <mask key="subviews">
                                 <include reference="QMo-rr-H7B"/>
+                                <include reference="a59-Jh-75r"/>
+                                <include reference="ktm-1r-dEW"/>
+                                <include reference="HT0-lO-8H1"/>
                             </mask>
                         </variation>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPadPro"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kTh-85-0wK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="678.75" y="795"/>
+            <point key="canvasLocation" x="339" y="796"/>
         </scene>
     </scenes>
     <resources>
