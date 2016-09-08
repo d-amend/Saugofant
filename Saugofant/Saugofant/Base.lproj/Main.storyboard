@@ -115,6 +115,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Biomuell_bg" translatesAutoresizingMaskIntoConstraints="NO" id="N06-HY-PfQ">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="500g" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bia-qT-Dr3">
                                 <rect key="frame" x="-42" y="-21" width="42" height="21"/>
                                 <constraints>
@@ -171,10 +174,16 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3SC-AT-R1c">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <variation key="widthClass=regular" misplaced="YES">
+                                    <rect key="frame" x="25" y="673" width="979" height="1"/>
+                                </variation>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VpV-jw-egT">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <variation key="widthClass=regular" misplaced="YES">
+                                    <rect key="frame" x="25" y="180" width="979" height="1"/>
+                                </variation>
                             </view>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="1" translatesAutoresizingMaskIntoConstraints="NO" id="jkj-ip-JKp">
                                 <rect key="frame" x="-60" y="-14" width="121" height="29"/>
@@ -316,9 +325,11 @@
                             <constraint firstItem="wlQ-a2-sss" firstAttribute="centerY" secondItem="FbU-ct-epl" secondAttribute="centerY" id="a17-KG-e31"/>
                             <constraint firstItem="IrC-mt-fd3" firstAttribute="centerX" secondItem="Wf7-YR-KAT" secondAttribute="centerX" id="ax0-zC-H4M"/>
                             <constraint firstItem="bVS-ek-SqQ" firstAttribute="centerX" secondItem="2YC-bU-Lnm" secondAttribute="centerX" id="bWV-np-uYB"/>
+                            <constraint firstItem="N06-HY-PfQ" firstAttribute="centerX" secondItem="eK7-GK-umR" secondAttribute="centerX" id="d5a-U6-zOx"/>
                             <constraint firstItem="IrC-mt-fd3" firstAttribute="leading" secondItem="eK7-GK-umR" secondAttribute="leading" constant="339" id="ehP-zz-4ll"/>
                             <constraint firstItem="wlQ-a2-sss" firstAttribute="leading" secondItem="eK7-GK-umR" secondAttribute="leadingMargin" id="fZJ-SV-0sT"/>
                             <constraint firstItem="qKD-1N-u4U" firstAttribute="bottom" secondItem="bVS-ek-SqQ" secondAttribute="bottom" id="flh-Fq-kaC"/>
+                            <constraint firstItem="N06-HY-PfQ" firstAttribute="height" secondItem="eK7-GK-umR" secondAttribute="height" id="ghg-XY-ePh"/>
                             <constraint firstItem="yaK-Xe-L6R" firstAttribute="top" secondItem="ReR-m9-CgW" secondAttribute="bottom" constant="10" id="gkq-MC-yNY"/>
                             <constraint firstItem="Wf7-YR-KAT" firstAttribute="baseline" secondItem="ilV-cW-zxr" secondAttribute="baseline" id="h8I-Bg-voc"/>
                             <constraint firstItem="G5U-Ys-wwv" firstAttribute="bottom" secondItem="yrg-e2-PRy" secondAttribute="bottom" id="hgS-6k-Ic5"/>
@@ -327,6 +338,7 @@
                             <constraint firstAttribute="trailingMargin" secondItem="2YC-bU-Lnm" secondAttribute="trailing" constant="38" id="krY-2e-OIK"/>
                             <constraint firstItem="9pq-Pa-1cl" firstAttribute="leading" secondItem="eK7-GK-umR" secondAttribute="leading" constant="489" id="lIk-GV-OMM"/>
                             <constraint firstItem="jkj-ip-JKp" firstAttribute="top" secondItem="6f3-Bn-fyk" secondAttribute="bottom" constant="10" id="lML-z2-GOY"/>
+                            <constraint firstItem="N06-HY-PfQ" firstAttribute="centerY" secondItem="eK7-GK-umR" secondAttribute="centerY" id="lRk-bY-Mid"/>
                             <constraint firstItem="yaK-Xe-L6R" firstAttribute="centerY" secondItem="Bia-qT-Dr3" secondAttribute="centerY" id="lYo-WM-gzX"/>
                             <constraint firstItem="dYp-ol-IsB" firstAttribute="baseline" secondItem="Wf7-YR-KAT" secondAttribute="baseline" id="lae-Zg-v2l"/>
                             <constraint firstItem="FbU-ct-epl" firstAttribute="baseline" secondItem="Bia-qT-Dr3" secondAttribute="baseline" id="mIp-2x-4Vc"/>
@@ -336,6 +348,7 @@
                             <constraint firstItem="6f3-Bn-fyk" firstAttribute="leading" secondItem="jkj-ip-JKp" secondAttribute="leading" id="np5-P2-elS"/>
                             <constraint firstItem="FbU-ct-epl" firstAttribute="centerX" secondItem="D2W-k3-xzZ" secondAttribute="centerX" id="oTS-qS-2qr"/>
                             <constraint firstItem="D2W-k3-xzZ" firstAttribute="bottom" secondItem="qKD-1N-u4U" secondAttribute="bottom" id="oim-gY-yqR"/>
+                            <constraint firstItem="N06-HY-PfQ" firstAttribute="width" secondItem="eK7-GK-umR" secondAttribute="width" id="qf9-PA-UYg"/>
                             <constraint firstItem="ilV-cW-zxr" firstAttribute="baseline" secondItem="XBL-Y9-AVW" secondAttribute="baseline" id="rkG-Pb-cqu"/>
                             <constraint firstItem="Pmu-rn-VJN" firstAttribute="top" secondItem="VpV-jw-egT" secondAttribute="bottom" constant="10" id="rpD-r9-x7b"/>
                             <constraint firstItem="6f3-Bn-fyk" firstAttribute="top" secondItem="wlQ-a2-sss" secondAttribute="bottom" constant="6" id="rrP-lt-vHp"/>
@@ -356,6 +369,7 @@
                         </constraints>
                         <variation key="default">
                             <mask key="subviews">
+                                <exclude reference="N06-HY-PfQ"/>
                                 <exclude reference="Bia-qT-Dr3"/>
                                 <exclude reference="FbU-ct-epl"/>
                                 <exclude reference="G5U-Ys-wwv"/>
@@ -398,6 +412,10 @@
                                 <exclude reference="SDt-hm-kda"/>
                                 <exclude reference="Xww-G4-qKJ"/>
                                 <exclude reference="sfe-oC-nMb"/>
+                                <exclude reference="d5a-U6-zOx"/>
+                                <exclude reference="ghg-XY-ePh"/>
+                                <exclude reference="lRk-bY-Mid"/>
+                                <exclude reference="qf9-PA-UYg"/>
                                 <exclude reference="Rcq-Qd-ydg"/>
                                 <exclude reference="hgS-6k-Ic5"/>
                                 <exclude reference="uVc-14-LJu"/>
@@ -452,6 +470,7 @@
                         </variation>
                         <variation key="widthClass=regular">
                             <mask key="subviews">
+                                <include reference="N06-HY-PfQ"/>
                                 <include reference="Bia-qT-Dr3"/>
                                 <include reference="FbU-ct-epl"/>
                                 <include reference="G5U-Ys-wwv"/>
@@ -494,6 +513,10 @@
                                 <include reference="SDt-hm-kda"/>
                                 <include reference="Xww-G4-qKJ"/>
                                 <include reference="sfe-oC-nMb"/>
+                                <include reference="d5a-U6-zOx"/>
+                                <include reference="ghg-XY-ePh"/>
+                                <include reference="lRk-bY-Mid"/>
+                                <include reference="qf9-PA-UYg"/>
                                 <include reference="Rcq-Qd-ydg"/>
                                 <include reference="hgS-6k-Ic5"/>
                                 <include reference="uVc-14-LJu"/>
@@ -1812,10 +1835,11 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Biomuell_bg" width="2048" height="1536"/>
         <image name="Biomuell_button" width="410" height="167"/>
-        <image name="Kunststoff_bg" width="410" height="168"/>
+        <image name="Kunststoff_bg" width="409" height="167"/>
         <image name="Papier_bg" width="410" height="168"/>
-        <image name="Restmuell_bg" width="410" height="168"/>
+        <image name="Restmuell_bg" width="409" height="168"/>
         <image name="battery_black_empty" width="130" height="260"/>
         <image name="battery_full" width="130" height="204"/>
         <image name="battery_half" width="130" height="241"/>
